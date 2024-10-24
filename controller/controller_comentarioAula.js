@@ -1,5 +1,5 @@
 const message = require('../modulo/config.js')
-const comentarioDAO = require('../model/DAO/comentario.js');
+const comentarioDAO = require('../model/DAO/comentarioAula.js');
 const alunoDAO = require('../model/DAO/aluno.js')
 const videoaulaDAO = require('../model/DAO/videoaula.js')
 const { contentType } = require('express/lib/response');
